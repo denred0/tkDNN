@@ -175,7 +175,11 @@ target_link_libraries(seg_demo tkDNN)
 add_executable(demo_images_list demo/demo/demo_images_list.cpp)
 target_link_libraries(demo_images_list tkDNN)
 
+add_executable(demo_images_list_batch demo/demo/demo_images_list_batch.cpp)
+target_link_libraries(demo_images_list_batch tkDNN)
+
 target_link_libraries(demo_images_list stdc++fs) 
+target_link_libraries(demo_images_list_batch stdc++fs)
 
 
 #-------------------------------------------------------------------------------
